@@ -8,6 +8,7 @@ class Springboot02ConfigApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("config");
     }
 
 }
