@@ -9,12 +9,14 @@
         <module name="springboot-01-hello" />
         <module name="springboot-02-config" />
         <module name="springboot-03-logging" />
+        <module name="springboot-04-web-restfulcrud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-01-hello" target="1.8" />
       <module name="springboot-02-config" target="1.8" />
       <module name="springboot-03-logging" target="1.8" />
+      <module name="springboot-04-web-restfulcrud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +24,7 @@
       <module name="springboot-01-hello" options="-parameters" />
       <module name="springboot-02-config" options="-parameters" />
       <module name="springboot-03-logging" options="-parameters" />
+      <module name="springboot-04-web-restfulcrud" options="" />
     </option>
   </component>
 </project>
