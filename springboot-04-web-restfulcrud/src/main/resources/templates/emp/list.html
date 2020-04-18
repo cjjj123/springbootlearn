@@ -49,7 +49,7 @@
                             <td th:text="${emp.id}">1</td>
                             <td th:text="${emp.lastName}">1</td>
                             <td th:text="${emp.email}">1</td>
-                            <td th:text="${emp.gender}">1</td>
+                            <td th:text="${emp.gender == 0 ? '男' : '女'}">1</td>
                             <td th:text="${emp.department.departmentName}">1</td>
                             <td th:text="${#dates.format(emp.birth,'yyyy-MM-dd HH:mm:ss')}">1</td>
                             <td>
@@ -83,7 +83,7 @@
 <script>
     $(".deleteBtn").click(function () {
         $("#deleteEmpForm").attr("action",$(this).attr("del_uri")).submit();
-
+            return false;
     })
 </script>
 
